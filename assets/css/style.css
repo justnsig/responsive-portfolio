@@ -216,10 +216,34 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 980px) {
+
+
+.container{
+  float: left;
+  width: 60%;
+  height: auto;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .container{
+    width: auto;
+  }
+
+}
+
 @media screen and (max-width: 640px) {
   .info  { float: left; }
   .auth-image {
-    width: auto;
+    width: 50%;
     height: auto;
     width: 100%;
   }
